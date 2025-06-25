@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: nginx:latest 
         ports:
         - containerPort: 80
         resources:
@@ -56,3 +56,5 @@ spec:
     port: 80
     targetPort: 80
     nodePort: 30080
+
+---
